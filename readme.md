@@ -1,0 +1,1 @@
+Discord リンクを開いたときに Web App ではなく Desktop App にリダイレクトするやつ。
