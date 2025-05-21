@@ -12,7 +12,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     chrome.tabs.update(tabId, { url: discordUrl }, () => {
       setTimeout(() => {
         chrome.tabs.remove(tabId);
-      }, 1000); // 1秒後にタブを閉じる
+      }, 10000); // 10秒後にタブを閉じる
     });
   }
 });
